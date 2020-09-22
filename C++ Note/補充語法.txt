@@ -1,0 +1,16 @@
+1. istringstream
+應用 : Leetcode 151
+
+ex :
+string s = "   abc def  i jk";
+istringstream is(s);
+string tmp;
+while (is >> tmp) {
+    cout << tmp << endl;
+}
+
+* output : 
+abc
+def
+i
+jk
