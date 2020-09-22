@@ -4,7 +4,7 @@
 <br>
 
 ## Leetcode題目分類
-### **String bold**  
+### **String**
 * 28      Implement strStr()
 * 14	    Longest Common Prefix
 * 58	    Length of Last Word
@@ -12,3 +12,4 @@
 * 383	    Ransom Note
 * 344	    Reverse String
 * 151     Reverse Words in a String
+* 345     Reverse Vowels of a String
