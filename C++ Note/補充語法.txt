@@ -1,8 +1,7 @@
 1. istringstream
 Header : <sstream>
-應用 : Leetcode 151
 
-ex :
+Ex1 :
 string s = "   abc def  i jk";
 istringstream is(s);
 string tmp;
@@ -15,3 +14,22 @@ abc
 def
 i
 jk
+
+Ex2 :
+is >> tmp  ==> 如果最後有成功則在做if判斷時,is會變成true
+string s = "a b";
+istringstream is(s);
+
+// Point 1 : current "is" is true
+
+is >> tmp;
+// Point 2 : current "is" is true , tmp is "a"
+
+is >> tmp;
+// Point 3 : current "is" is true , tmp is "b"
+
+is >> tmp
+// Point 4 : current "is" is false
+
+
+
