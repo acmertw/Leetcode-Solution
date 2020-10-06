@@ -13,3 +13,6 @@
 * 344	    Reverse String
 * 151     Reverse Words in a String
 * 345     Reverse Vowels of a String
+* 205     Isomorphic Strings
+* 290     Word Pattern
+* 242     Valid Anagram
