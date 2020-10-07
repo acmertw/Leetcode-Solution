@@ -4,6 +4,9 @@
 <br>
 
 ## Leetcode題目分類
+### **Array**
+* 27      Remove Element
+
 ### **String**
 * 28      Implement strStr()
 * 14	    Longest Common Prefix
